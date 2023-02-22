@@ -61,7 +61,7 @@ void Vedothi ()
  void mydisplay () {
   glClear (GL_COLOR_BUFFER_BIT);
   
-  Veothi ();
+  Vedothi ();
   
   glViewport (0,0,640,480);
   glFlush();
@@ -74,7 +74,7 @@ int main()
   glutInitDisplayMode (mode);
   glutInitWindowSize (640, 480);
   glutInitWindowPosition (0, 0);
-  glutCreateWindow("Ve do thi ham ");
+  glutCreateWindow("Ve do thi bac 3");
   
   initGL();
   glutDisplayFunc (mydisplay); 
